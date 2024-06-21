@@ -16,6 +16,8 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
+
+
 export default function DeleteCommunityButton({ id }: { id: string }) {
   const handleDeleteCommunity = async () => {
     try {
@@ -31,6 +33,9 @@ export default function DeleteCommunityButton({ id }: { id: string }) {
       });
     }
   }
+
+console.log("Hello")
+
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
